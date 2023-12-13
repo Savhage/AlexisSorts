@@ -229,13 +229,23 @@ public class AlexisSort {
         finish=System.currentTimeMillis();
         System.out.println("100: " + (finish-start));
 
-
         arr=generateNumbers(10000);
         start=System.currentTimeMillis();
         bubbleSort(arr);
         finish=System.currentTimeMillis();
         System.out.println("10000: " + (finish-start));
 
+        arr=generateNumbers(50000);
+        start=System.currentTimeMillis();
+        bubbleSort(arr);
+        finish=System.currentTimeMillis();
+        System.out.println("50000: " + (finish-start));
+
+        arr=generateNumbers(100000);
+        start=System.currentTimeMillis();
+        bubbleSort(arr);
+        finish=System.currentTimeMillis();
+        System.out.println("100000: " + (finish-start));
 
         arr=generateNumbers(200000);
         start=System.currentTimeMillis();
@@ -260,6 +270,17 @@ public class AlexisSort {
         finish=System.currentTimeMillis();
         System.out.println("10000: " + (finish-start));
 
+        arr=generateNumbers(50000);
+        start=System.currentTimeMillis();
+        selectSort(arr);
+        finish=System.currentTimeMillis();
+        System.out.println("50000: " + (finish-start));
+
+        arr=generateNumbers(100000);
+        start=System.currentTimeMillis();
+        selectSort(arr);
+        finish=System.currentTimeMillis();
+        System.out.println("100000: " + (finish-start));
 
         arr=generateNumbers(200000);
         start=System.currentTimeMillis();
@@ -281,6 +302,18 @@ public class AlexisSort {
         insertionSort(arr);
         finish=System.currentTimeMillis();
         System.out.println("10000: " + (finish-start));
+
+        arr=generateNumbers(50000);
+        start=System.currentTimeMillis();
+        insertionSort(arr);
+        finish=System.currentTimeMillis();
+        System.out.println("50000: " + (finish-start));
+
+        arr=generateNumbers(100000);
+        start=System.currentTimeMillis();
+        insertionSort(arr);
+        finish=System.currentTimeMillis();
+        System.out.println("100000: " + (finish-start));
 
         arr=generateNumbers(200000);
         start=System.currentTimeMillis();
@@ -304,6 +337,18 @@ public class AlexisSort {
         finish=System.currentTimeMillis();
         System.out.println("10000: " + (finish-start));
 
+        arr=generateNumbers(50000);
+        start=System.currentTimeMillis();
+        mergeSort(arr);
+        finish=System.currentTimeMillis();
+        System.out.println("50000: " + (finish-start));
+
+        arr=generateNumbers(100000);
+        start=System.currentTimeMillis();
+        mergeSort(arr);
+        finish=System.currentTimeMillis();
+        System.out.println("100000: " + (finish-start));
+
 
         arr=generateNumbers(200000);
         start=System.currentTimeMillis();
@@ -326,6 +371,18 @@ public class AlexisSort {
         finish=System.currentTimeMillis();
         System.out.println("10000: " + (finish-start));
 
+        arr=generateNumbers(50000);
+        start=System.currentTimeMillis();
+        heapSort(arr);
+        finish=System.currentTimeMillis();
+        System.out.println("50000: " + (finish-start));
+
+        arr=generateNumbers(100000);
+        start=System.currentTimeMillis();
+        heapSort(arr);
+        finish=System.currentTimeMillis();
+        System.out.println("100000: " + (finish-start));
+
         arr=generateNumbers(200000);
         start=System.currentTimeMillis();
         heapSort(arr);
@@ -347,6 +404,18 @@ public class AlexisSort {
         finish=System.currentTimeMillis();
         System.out.println("10000: " + (finish-start));
 
+        arr=generateNumbers(50000);
+        start=System.currentTimeMillis();
+        quickSort(arr);
+        finish=System.currentTimeMillis();
+        System.out.println("50000: " + (finish-start));
+
+        arr=generateNumbers(100000);
+        start=System.currentTimeMillis();
+        quickSort(arr);
+        finish=System.currentTimeMillis();
+        System.out.println("100000: " + (finish-start));
+
         arr=generateNumbers(200000);
         start=System.currentTimeMillis();
         quickSort(arr);
@@ -367,6 +436,18 @@ public class AlexisSort {
         shellSort(arr);
         finish=System.currentTimeMillis();
         System.out.println("10000: " + (finish-start));
+
+        arr=generateNumbers(50000);
+        start=System.currentTimeMillis();
+        shellSort(arr);
+        finish=System.currentTimeMillis();
+        System.out.println("50000: " + (finish-start));
+
+        arr=generateNumbers(100000);
+        start=System.currentTimeMillis();
+        shellSort(arr);
+        finish=System.currentTimeMillis();
+        System.out.println("100000: " + (finish-start));
 
         arr=generateNumbers(200000);
         start=System.currentTimeMillis();
